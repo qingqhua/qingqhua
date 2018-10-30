@@ -99,6 +99,7 @@
 <meta property="og:description" content="Goal:Use Corona to render scene in 3DSMAX First step:Put models into 3DSMAX, the architecture and other items are downloaded from free3D.com.Two camera, three light sources here. Material:Some interes">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://yoursite.com/images/geometry_set.JPG">
+<meta property="og:image" content="http://yoursite.com/images/material/clocknodof.JPG">
 <meta property="og:image" content="http://yoursite.com/images/material/clockdof.JPG">
 <meta property="og:image" content="http://yoursite.com/images/material/wine.JPG">
 <meta property="og:image" content="http://yoursite.com/images/material/door.JPG">
@@ -106,13 +107,13 @@
 <meta property="og:image" content="http://yoursite.com/images/denoise/noon_nodenoise.jpg">
 <meta property="og:image" content="http://yoursite.com/images/denoise/sunset_nodenoise.jpg">
 <meta property="og:image" content="http://yoursite.com/images/material/environmap1.JPG">
-<meta property="og:image" content="http://yoursite.com/images/render_ele/noon_Direct1.jpg">
+<meta property="og:image" content="http://yoursite.com/images/render_ele/noon_direct1.jpg">
 <meta property="og:image" content="http://yoursite.com/images/render_ele/noon_indirect.JPG">
 <meta property="og:image" content="http://yoursite.com/images/render_ele/noon_reflect.JPG">
 <meta property="og:image" content="http://yoursite.com/images/render_ele/noon_shadow.JPG">
 <meta property="og:image" content="http://yoursite.com/images/denoise/compare.jpg">
 <meta property="og:image" content="http://yoursite.com/images/final.JPG">
-<meta property="og:updated_time" content="2018-10-30T15:12:42.364Z">
+<meta property="og:updated_time" content="2018-10-30T15:19:36.570Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CGIII Assignment I">
 <meta name="twitter:description" content="Goal:Use Corona to render scene in 3DSMAX First step:Put models into 3DSMAX, the architecture and other items are downloaded from free3D.com.Two camera, three light sources here. Material:Some interes">
@@ -347,9 +348,7 @@
 <h2 id="First-step"><a href="#First-step" class="headerlink" title="First step:"></a>First step:</h2><p>Put models into 3DSMAX, the architecture and other items are downloaded from free3D.com.<br>Two camera, three light sources here.<br><img src="/images/geometry_set.JPG" alt=""></p>
 <h2 id="Material"><a href="#Material" class="headerlink" title="Material:"></a>Material:</h2><p>Some interesting material here.</p>
 <ol>
-<li>clock<br>metal- chrome,glass thin clear and texture map<br>arrow- copper satin fingerprints<br>depth of field: how narrow or wide the DOF is set by F-stop. default is 16.<br><img src="/images/material/clockdof.JPG" alt="](/images/material/clocknodof.JPG)
-set it to 7.
-!"></li>
+<li>clock<br>metal- chrome,glass thin clear and texture map<br>arrow- copper satin fingerprints<br>depth of field: how narrow or wide the DOF is set by F-stop. default is 16.<br>Without DOF<br><img src="/images/material/clocknodof.JPG" alt=""><br>With DOF, set F-stop to 7.<br><img src="/images/material/clockdof.JPG" alt="]"></li>
 <li><p>wine<br>glass clear and red wine<br><img src="/images/material/wine.JPG" alt=""></p>
 </li>
 <li><p>door and mirror<br>glass forsted and glass mirror<br><img src="/images/material/door.JPG" alt=""></p>
@@ -364,7 +363,8 @@ set it to 7.
 <p><img src="/images/lightset.JPG" alt=""></p>
 <h2 id="Some-experiement-in-light-source"><a href="#Some-experiement-in-light-source" class="headerlink" title="Some experiement in light source:"></a>Some experiement in light source:</h2><p>Use Corona map<br>noon<br><img src="/images/denoise/noon_nodenoise.jpg" alt=""><br>sunset, increase intensity to 10<br><img src="/images/denoise/sunset_nodenoise.jpg" alt=""><br>USe HDR image as environment map,really dark…<br><img src="/images/material/environmap1.JPG" alt=""></p>
 <p>The light in the lamp use material lightmtl.</p>
-<h2 id="Render-element"><a href="#Render-element" class="headerlink" title="Render element"></a>Render element</h2><p>We will use the noon image to see the clear render element<br>Direct<br><img src="/images/render_ele/noon_Direct1.jpg" alt=""><br>Indirect<br><img src="/images/render_ele/noon_indirect.JPG" alt=""><br>Reflect<br><img src="/images/render_ele/noon_reflect.JPG" alt=""><br>Shadow<br><img src="/images/render_ele/noon_shadow.JPG" alt=""></p>
+<h2 id="Render-element"><a href="#Render-element" class="headerlink" title="Render element"></a>Render element</h2><p>We will use the noon image to see the clear render element<br>Direct<br><img src="/images/render_ele/noon_direct1.jpg" alt=""></p>
+<p>Indirect<br><img src="/images/render_ele/noon_indirect.JPG" alt=""><br>Reflect<br><img src="/images/render_ele/noon_reflect.JPG" alt=""><br>Shadow<br><img src="/images/render_ele/noon_shadow.JPG" alt=""></p>
 <h2 id="Tone-mapping"><a href="#Tone-mapping" class="headerlink" title="Tone mapping"></a>Tone mapping</h2><p>Set white balance to 6000, we will get warm tone.<br>Set highlight compress to avoid over exposure.</p>
 <h2 id="Denosing"><a href="#Denosing" class="headerlink" title="Denosing"></a>Denosing</h2><p><img src="/images/denoise/compare.jpg" alt=""></p>
 <h2 id="What-makes-rendering-slow"><a href="#What-makes-rendering-slow" class="headerlink" title="What makes rendering slow"></a>What makes rendering slow</h2><p>Geometry<br>Reflection material - if the reflection is strong, the speed will low<br>Light intensity, amount of light<br>Render setting: Depths of ray </p>
