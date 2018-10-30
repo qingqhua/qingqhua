@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Assembly Language," />
+  <meta name="keywords" content="homework," />
 
 
 
@@ -90,18 +90,18 @@
 
 
 
-<meta name="description" content="在win10中使用debug模式的方法：   1. 下载dosbox以及debug.exe   2. 输入 mount:c _debug_file_dir_ eg. d:asm   3. 定位到虚拟c盘   4. -debug  DEBUG模式命令D命令查看内存中的内容 -d 1000:0 E命令1. 改写内存中的内容     -e 1000：0   1 &amp;apos;a&amp;apos; 2 &amp;apos">
-<meta name="keywords" content="Assembly Language">
+<meta name="description" content="radiometry is the physical measurement of electromagnetic energy.flux: radiant energy per unit timeradiance: radiant energy per unit volumeirradiance:energy per unit area incident onto a surfaceradios">
+<meta name="keywords" content="homework">
 <meta property="og:type" content="article">
-<meta property="og:title" content="debug commands">
-<meta property="og:url" content="http://yoursite.com/2017/05/07/debug-commands/index.html">
+<meta property="og:title" content="note">
+<meta property="og:url" content="http://yoursite.com/2018/10/28/note/index.html">
 <meta property="og:site_name" content="Qingqin Hua">
-<meta property="og:description" content="在win10中使用debug模式的方法：   1. 下载dosbox以及debug.exe   2. 输入 mount:c _debug_file_dir_ eg. d:asm   3. 定位到虚拟c盘   4. -debug  DEBUG模式命令D命令查看内存中的内容 -d 1000:0 E命令1. 改写内存中的内容     -e 1000：0   1 &amp;apos;a&amp;apos; 2 &amp;apos">
+<meta property="og:description" content="radiometry is the physical measurement of electromagnetic energy.flux: radiant energy per unit timeradiance: radiant energy per unit volumeirradiance:energy per unit area incident onto a surfaceradios">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-09-04T02:28:37.872Z">
+<meta property="og:updated_time" content="2018-10-30T23:00:42.108Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="debug commands">
-<meta name="twitter:description" content="在win10中使用debug模式的方法：   1. 下载dosbox以及debug.exe   2. 输入 mount:c _debug_file_dir_ eg. d:asm   3. 定位到虚拟c盘   4. -debug  DEBUG模式命令D命令查看内存中的内容 -d 1000:0 E命令1. 改写内存中的内容     -e 1000：0   1 &amp;apos;a&amp;apos; 2 &amp;apos">
+<meta name="twitter:title" content="note">
+<meta name="twitter:description" content="radiometry is the physical measurement of electromagnetic energy.flux: radiant energy per unit timeradiance: radiant energy per unit volumeirradiance:energy per unit area incident onto a surfaceradios">
 
 
 
@@ -129,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/05/07/debug-commands/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/10/28/note/"/>
 
 
 
 
 
-  <title>debug commands | Qingqin Hua</title>
+  <title>note | Qingqin Hua</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -264,7 +264,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/07/debug-commands/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/28/note/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Q. HUA">
@@ -281,7 +281,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">debug commands</h1>
+          <h1 class="post-title" itemprop="name headline">note</h1>
         
 
         <div class="post-meta">
@@ -293,8 +293,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-07T14:02:54+02:00">
-                2017-05-07
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-10-28T12:32:37+01:00">
+                2018-10-28
               </time>
             
 
@@ -328,37 +328,8 @@
       
 
       
-        <p>在win10中使用debug模式的方法：  </p>
-<pre><code>1. 下载dosbox以及debug.exe  
-2. 输入 mount:c _debug_file_dir_ eg. d:asm  
-3. 定位到虚拟c盘  
-4. -debug 
-</code></pre><h1 id="DEBUG模式命令"><a href="#DEBUG模式命令" class="headerlink" title="DEBUG模式命令"></a>DEBUG模式命令</h1><h2 id="D命令"><a href="#D命令" class="headerlink" title="D命令"></a>D命令</h2><pre><code>查看内存中的内容
--d 1000:0
-</code></pre><h2 id="E命令"><a href="#E命令" class="headerlink" title="E命令"></a>E命令</h2><pre><code>1. 改写内存中的内容
-    -e 1000：0   1 &apos;a&apos; 2 &apos;b&apos; 
-2. 向内存中输入机器码
-    -e b80100 b90200 01c8
-</code></pre><h2 id="R命令"><a href="#R命令" class="headerlink" title="R命令"></a>R命令</h2><pre><code>改变CPU寄存器的内容
--r ax 
-</code></pre><h2 id="U命令"><a href="#U命令" class="headerlink" title="U命令"></a>U命令</h2><pre><code>查看机器码输入的对应汇编操作
--u 1000:0
-</code></pre><h2 id="T命令"><a href="#T命令" class="headerlink" title="T命令"></a>T命令</h2><pre><code>执行一条写入的汇编指令(需要先让CS:IP指向刚才输入的汇编指令的地址)
--t
-</code></pre><h2 id="A命令"><a href="#A命令" class="headerlink" title="A命令"></a>A命令</h2><pre><code>向内存中输入汇编指令(替代e命令的机器码，仍然需要让CS：IP指向刚才输入的汇编指令的地址，之后用T命令分条执行)
--a 1000:0
-mov ax,1
-</code></pre><h1 id="寄存器分类"><a href="#寄存器分类" class="headerlink" title="寄存器分类"></a>寄存器分类</h1><h2 id="1-通用寄存器"><a href="#1-通用寄存器" class="headerlink" title="1. 通用寄存器"></a>1. 通用寄存器</h2><h3 id="AX"><a href="#AX" class="headerlink" title="AX"></a>AX</h3><pre><code>累加寄存器，通常用于运算
-</code></pre><h2 id="2-段寄存器"><a href="#2-段寄存器" class="headerlink" title="2. 段寄存器"></a>2. 段寄存器</h2><h3 id="CS"><a href="#CS" class="headerlink" title="CS"></a>CS</h3><pre><code>代码段寄存器
-</code></pre><h3 id="DS"><a href="#DS" class="headerlink" title="DS"></a>DS</h3><pre><code>存放要访问的数据的段地址
-</code></pre><h2 id="3-指令指针寄存器"><a href="#3-指令指针寄存器" class="headerlink" title="3. 指令指针寄存器"></a>3. 指令指针寄存器</h2><h3 id="IP"><a href="#IP" class="headerlink" title="IP"></a>IP</h3><pre><code>指向当前需要取出的指令字节，在取出1字节内存后自动加1，指向下一个指令字节
-8086CPU中，读取指令地址为，CS*16+IP(CS:IP)
-</code></pre><h2 id="4-标志寄存器"><a href="#4-标志寄存器" class="headerlink" title="4. 标志寄存器"></a>4. 标志寄存器</h2><h1 id="Remark"><a href="#Remark" class="headerlink" title="Remark"></a>Remark</h1><pre><code>mov ax, 1000H
-</code></pre><p>存放1000H数值到ax寄存器中</p>
-<pre><code>mov bx,1000H
-mov ds,bx
-mov ax,[0]
-</code></pre><p>存放内存号为1000:0地址的内容到ax寄存器中</p>
+        <p>radiometry is the physical measurement of electromagnetic energy.<br>flux: radiant energy per unit time<br>radiance: radiant energy per unit volume<br>irradiance:energy per unit area incident onto a surface<br>radiosity:energy per unit area leaves a surface<br>radiant intensity:power per unit area</p>
+<p>BRDF ratio of reflected radiance to differential irradiance from incident direction</p>
 
       
     </div>
@@ -388,7 +359,7 @@ mov ax,[0]
       
         <div class="post-tags">
           
-            <a href="/tags/Assembly-Language/" rel="tag"># Assembly Language</a>
+            <a href="/tags/homework/" rel="tag"># homework</a>
           
         </div>
       
@@ -401,8 +372,8 @@ mov ax,[0]
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/05/05/Computer-Organization-and-Design-Reading-Note-Chapter1/" rel="next" title="Computer Organization and Design Chapter1">
-                <i class="fa fa-chevron-left"></i> Computer Organization and Design Chapter1
+              <a href="/2017/07/10/Computer-Architecture-Chapter1/" rel="next" title="Computer Architecture Chapter1">
+                <i class="fa fa-chevron-left"></i> Computer Architecture Chapter1
               </a>
             
           </div>
@@ -411,8 +382,8 @@ mov ax,[0]
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/05/16/everyday-shadertoy-I/" rel="prev" title="everyday shadertoy I">
-                everyday shadertoy I <i class="fa fa-chevron-right"></i>
+              <a href="/2018/10/28/CGIII-Assignment-I/" rel="prev" title="CGIII Assignment I">
+                CGIII Assignment I <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -460,17 +431,8 @@ mov ax,[0]
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Table of Contents
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            Overview
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar1.jpeg"
@@ -523,22 +485,6 @@ mov ax,[0]
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#DEBUG模式命令"><span class="nav-number">1.</span> <span class="nav-text">DEBUG模式命令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#D命令"><span class="nav-number">1.1.</span> <span class="nav-text">D命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#E命令"><span class="nav-number">1.2.</span> <span class="nav-text">E命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#R命令"><span class="nav-number">1.3.</span> <span class="nav-text">R命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#U命令"><span class="nav-number">1.4.</span> <span class="nav-text">U命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#T命令"><span class="nav-number">1.5.</span> <span class="nav-text">T命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#A命令"><span class="nav-number">1.6.</span> <span class="nav-text">A命令</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#寄存器分类"><span class="nav-number">2.</span> <span class="nav-text">寄存器分类</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-通用寄存器"><span class="nav-number">2.1.</span> <span class="nav-text">1. 通用寄存器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#AX"><span class="nav-number">2.1.1.</span> <span class="nav-text">AX</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-段寄存器"><span class="nav-number">2.2.</span> <span class="nav-text">2. 段寄存器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#CS"><span class="nav-number">2.2.1.</span> <span class="nav-text">CS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DS"><span class="nav-number">2.2.2.</span> <span class="nav-text">DS</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-指令指针寄存器"><span class="nav-number">2.3.</span> <span class="nav-text">3. 指令指针寄存器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#IP"><span class="nav-number">2.3.1.</span> <span class="nav-text">IP</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-标志寄存器"><span class="nav-number">2.4.</span> <span class="nav-text">4. 标志寄存器</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Remark"><span class="nav-number">3.</span> <span class="nav-text">Remark</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
